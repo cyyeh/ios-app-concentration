@@ -8,9 +8,7 @@
 
 import Foundation
 
-struct Card: Hashable {
-    var hashValue: Int { return identifier }
-    
+struct Card: Hashable {  
     static func ==(lhs: Card, rhs: Card) -> Bool {
         return lhs.identifier == rhs.identifier
     }

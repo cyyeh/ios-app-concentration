@@ -40,6 +40,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8A8A356226D7A0B007862B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8E86C9B2223C420004D3200 /* Concentration.swift */,
+				E8E86C9D2223C45E004D3200 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8A8A357226D7A19007862B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8E86C8A2223C0E1004D3200 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		E8E86C7C2223C0E1004D3200 = {
 			isa = PBXGroup;
 			children = (
@@ -59,12 +76,10 @@
 		E8E86C872223C0E1004D3200 /* ConcentrationApp */ = {
 			isa = PBXGroup;
 			children = (
+				E8A8A357226D7A19007862B9 /* Controller */,
+				E8A8A356226D7A0B007862B9 /* Model */,
 				E8E86C9A2223C296004D3200 /* Supporting Files */,
-				E8E86C8A2223C0E1004D3200 /* ViewController.swift */,
-				E8E86C8C2223C0E1004D3200 /* Main.storyboard */,
 				E8E86C942223C0E2004D3200 /* Info.plist */,
-				E8E86C9B2223C420004D3200 /* Concentration.swift */,
-				E8E86C9D2223C45E004D3200 /* Card.swift */,
 				E8E86C9F2223E79F004D3200 /* README.md */,
 			);
 			path = ConcentrationApp;
@@ -73,6 +88,7 @@
 		E8E86C9A2223C296004D3200 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E8E86C8C2223C0E1004D3200 /* Main.storyboard */,
 				E8E86C882223C0E1004D3200 /* AppDelegate.swift */,
 				E8E86C8F2223C0E2004D3200 /* Assets.xcassets */,
 				E8E86C912223C0E2004D3200 /* LaunchScreen.storyboard */,
